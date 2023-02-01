@@ -33,10 +33,6 @@ export class FileCreator {
             return;
         }
 
-        if (fs.existsSync(template.targetPath)) {
-            throw Error('Target file/folder exists, can`t create.');
-        }
-
         try {
             this.createTemplate(template);
         } catch (error) {
