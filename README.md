@@ -1,6 +1,7 @@
 # Template Generator
 
 This extension helps in creating files and folders easily from defined templates.
+This version of the Template Generator extension allows creating files when some folders in the tree already exist.
 
 ## Features
 
